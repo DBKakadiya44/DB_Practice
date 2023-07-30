@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="176dp"
+android:padding="10dp"
+android:background="#365C5C"
+android:orientation="vertical"
+    >
+
+<ImageView
+    android:layout_width="90dp"
+    android:layout_height="90dp"
+    android:id="@+id/headerimage"
+    android:src="@mipmap/ic_launcher"
+    android:layout_margin="5dp"/>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Dip Kakadiya"
+    android:id="@+id/headername"
+    android:textSize="20dp"
+    android:textColor="@color/white"
+    android:textStyle="bold"/>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/headeremail"
+    android:text="deepkakadiya2002@gmail.com"
+    android:textColor="@color/white"
+    android:textSize="15dp"/>
+
+</LinearLayout>
+

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+    <item android:id="@+id/addnew"
+        android:icon="@drawable/baseline_add_ic_call_24"
+        android:title="Add New Contact"/>
+
+    <item android:id="@+id/update"
+        android:icon="@drawable/add_contact"
+        android:title="Update Contact"/>
+
+    <item android:id="@+id/display"
+        android:icon="@drawable/all_contact"
+        android:title="Show All Contacts"/>
+
+    </group>
+
+</menu>
